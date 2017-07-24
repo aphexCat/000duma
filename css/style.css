@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: 'TrolaLatCyr';
+/*    font-family: 'TrolaLatCyr'; */
     src: url('../fonts/TrolaLatCyr.eot');
     src: local('☺'), url('../fonts/TrolaLatCyr.woff') format('woff'), url('../fonts/TrolaLatCyr.ttf') format('truetype'), url('../fonts/TrolaLatCyr.svg') format('svg');
     font-weight: normal;
@@ -61,6 +61,7 @@ ul, p {
 }
 
 h1, h2, h3, h4, h5 {
+    font-weight: normal;
 }
 
 li {
@@ -76,7 +77,7 @@ a {
 */
 
 .center-box {
-    width: 1254px;
+    max-width: 1254px;
     margin: 0 auto;
 
     /* СМ */
@@ -89,7 +90,7 @@ a {
 
 /*XXX Зачем фиксированная ширина - диблирование с основным контейнером*/
 body {
-    width: 1460px;
+    width: 100%;
     margin: 0 auto;
     background: #F4F5F6;
     /*text-rendering: optimizeLegibility;*/
